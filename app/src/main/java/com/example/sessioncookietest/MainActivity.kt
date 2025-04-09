@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
             SessionCookieTestTheme {
                 Column(modifier = Modifier.fillMaxSize()) {
                     WebViewWithHeaders(url = "http://localhost:8080/")
+//                    WebViewWithHeaders(url = "file:///android_asset/index.html")
                 }
 
             }
